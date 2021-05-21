@@ -9,6 +9,8 @@ const valorKM = 0.15
 
 const ValorFinalDias = qtdDias * valorDia
 const valorFinalKM = qtdKM * valorKM
+const valortotal = ValorFinalDias + valorFinalKM
 
-console.log(`O Valor Final no sistema Aluguel por Dia é de: R$ ${ValorFinalDias}`)
-console.log(`O Valor Final no sistema Aluguel por KM é de: R$ ${valorFinalKM}`)
+console.log(`O Valor por Dia é de: R$ ${ValorFinalDias}`)
+console.log(`O Valor por KM é de: R$ ${valorFinalKM}`)
+console.log(`O Valor Total a Pagar é de: R$ ${valortotal}`)
